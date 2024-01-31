@@ -37,25 +37,25 @@ $desktop: 1200px;
   background-color: #fff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: $desktop) {
   .container {
     background-color: $color-4;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: $laptop) {
   .container {
     background-color: $color-3;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
   .container {
     background-color: $color-2;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: $mobile) {
   .container {
     background-color: $color-1;
   }
